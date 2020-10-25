@@ -1,0 +1,60 @@
+owrt1907-r11225-14903d9d8c-20201025-0925
+
+######################################################
+
+origin	https://git.openwrt.org/openwrt/openwrt.git (fetch)
+* openwrt-19.07
+2020-10-21 14903d9 kernel: bump 4.14 to 4.14.202
+A  .config.init
+M  .gitignore
+A  files/etc/Compile_info.txt
+A  files/etc/applyHNsettings.sh
+A  files/etc/checksettings.sh
+A  files/etc/config/fstab
+A  files/etc/hotplug.d/ntp/20-ntpd-logger
+A  files/etc/lan-repeater.sh
+A  files/etc/restoreStats.sh
+A  files/etc/saveHNsettings.sh
+A  files/etc/storeStats.sh
+A  hnscripts/copyPackages2tmp.sh
+A  hnscripts/createbuildinfo.sh
+A  hnscripts/kernelcompile.sh
+A  hnscripts/mountNcopy.sh
+A  hnscripts/newBuildroot.sh
+A  hnscripts/parallelcompile.sh
+A  hnscripts/singlecompile.sh
+A  hnscripts/timestampVersion.sh
+A  hnscripts/updateNmake.sh
+M  package/base-files/files/bin/config_generate
+M  package/base-files/files/etc/rc.button/reset
+M  package/network/ipv6/6in4/files/6in4.sh
+M  package/network/services/dnsmasq/Makefile
+A  package/network/services/dnsmasq/files/50-dnsmasq-migrate-resolv-conf-auto.sh
+M  package/network/services/dnsmasq/files/dhcp.conf
+M  package/network/services/hostapd/files/hostapd.sh
+M  package/network/services/hostapd/files/wps-hotplug.sh
+M  package/network/services/odhcpd/files/odhcpd-update
+A  package/utils/busybox/patches/310-save-history-in-tmp.patch
+A  package/utils/busybox/patches/520-move-coreutils-to-bin.patch
+A  target/linux/ipq806x/patches-4.14/900-tweak-cpufreq-ondemand-governor.patch
+?? version.date
+
+######################################################
+
+origin	https://git.openwrt.org/project/luci.git (fetch)
+* openwrt-19.07
+2020-10-13 3d52019 treewide: i18n - backport and sync transl
+A  applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/sqm.js
+A  applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/sqmcake.js
+M  applications/luci-app-statistics/root/etc/config/luci_statistics
+M  modules/luci-base/root/etc/config/luci
+M  themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
+M  themes/luci-theme-material/root/etc/uci-defaults/30_luci-theme-material
+
+######################################################
+
+origin	https://git.openwrt.org/feed/packages.git (fetch)
+* openwrt-19.07
+2020-10-23 37303e1 adblock: update 4.0.7-2
+M  net/bcp38/files/bcp38.config
+A  net/sqm-scripts/patches/010-ipq806x-default-wan-eth0.patch
