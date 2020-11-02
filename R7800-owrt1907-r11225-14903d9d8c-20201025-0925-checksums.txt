@@ -1,2 +1,0 @@
-c14e9505c47d62ed3e97e1b5eac907dbbaca40005a48cfd93bcbaed7c48bace9 R7800-factory.img
-c867e5e9661d19c81518a397b8b43abcae4452ebe8390084ce81b482e1044ebd R7800-sysupgrade.bin
