@@ -1,15 +1,15 @@
 Package: base-files
-Version: 204.2-r11225-14903d9d8c
+Version: 204.2-r11228-78c4c04dd7
 Depends: libc, netifd, procd, jsonfilter, usign, openwrt-keyring, ubi-utils, fstools, fwtool
 Source: package/base-files
 SourceName: base-files
 License: GPL-2.0
 Section: base
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 47836
-Filename: base-files_204.2-r11225-14903d9d8c_arm_cortex-a15_neon-vfpv4.ipk
-Size: 48854
-SHA256sum: b9833a461af6ed6544a2d79e0737623bb6ea6e6e2ae606829973a88e70a2f16f
+Installed-Size: 47842
+Filename: base-files_204.2-r11228-78c4c04dd7_arm_cortex-a15_neon-vfpv4.ipk
+Size: 48859
+SHA256sum: 93f939759320eefdc5ebd089f3ded689fbe4acbd5eaf70ac549ae696f5d365df
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -276,10 +276,10 @@ License: GPLv2
 Section: kernel
 Maintainer: Ben Greear <greearb@candelatech.com>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 209901
+Installed-Size: 209900
 Filename: kmod-ath10k-ct_4.14.202+2019-09-09-5e8cd86f-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 208187
-SHA256sum: e70f9bc889b60c096ddfd31c36e005443711d410a6b26a2c345d01d540240356
+Size: 208194
+SHA256sum: 866db783324772b2ec4413d11a2d6681a0c0c90e31baab78a7a214a62cdff9b4
 Description:  ath10k-ct driver optimized for CT ath10k firmware
 
 Package: kmod-ath
@@ -290,10 +290,10 @@ SourceName: kmod-ath
 Section: kernel
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 11825
+Installed-Size: 11826
 Filename: kmod-ath_4.14.202+4.19.137-1-2_arm_cortex-a15_neon-vfpv4.ipk
-Size: 12617
-SHA256sum: 8d5d687ac67358a398cec8ae7e30641e201c2f455478071a78605d95d7eb6911
+Size: 12615
+SHA256sum: 5d63bb4084c932b8ab91ea4c1febe3f25f803a2f5f7ea9c88164511abe9d9beb
 Description:  This module contains some common parts needed by Atheros Wireless drivers.
 
 Package: kmod-cfg80211
@@ -304,10 +304,10 @@ SourceName: kmod-cfg80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 139752
+Installed-Size: 139753
 Filename: kmod-cfg80211_4.14.202+4.19.137-1-2_arm_cortex-a15_neon-vfpv4.ipk
 Size: 140006
-SHA256sum: 6a24f7d8e5252bbabc7dfd325d86dbb53064c8267c9024e3b319bd36a398766d
+SHA256sum: 0e8fc5b2a28844981f90422f0f995eeacdebd58d22a5398987f6763d03a0cf3a
 Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
 
 Package: kmod-chaoskey
@@ -530,10 +530,10 @@ LicenseFiles: LICENSE
 Section: kernel
 Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 48784
+Installed-Size: 48785
 Filename: kmod-fs-exfat_4.14.202+2018-04-17-01c30ad5-2_arm_cortex-a15_neon-vfpv4.ipk
-Size: 49473
-SHA256sum: 5488fa17ee94edf140d3ee15182ea72082ab5b24d5a480560bf0ae7b2eec99d8
+Size: 49486
+SHA256sum: 3a361c63a12de2a07ba14857612a4f40af9755546c7821c760776cabf7ce7c42
 Description:  Kernel module for ExFAT Filesytems
 
 Package: kmod-fs-ext4
@@ -614,10 +614,10 @@ SourceName: kmod-gpio-button-hotplug
 License: GPL-2.0
 Section: kernel
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 6177
+Installed-Size: 6176
 Filename: kmod-gpio-button-hotplug_4.14.202-3_arm_cortex-a15_neon-vfpv4.ipk
-Size: 7148
-SHA256sum: 36650b38978bc94496f627fef78a989f94a63fce22e23d3ec25df7e9c581a779
+Size: 7152
+SHA256sum: e2c3cc02cb883ea121832cb4c463dc7d4efa3537132d0cf2e9764bf19393f778
 Description:  This is a replacement for the following in-kernel drivers:
  1) gpio_keys (KEYBOARD_GPIO)
  2) gpio_keys_polled (KEYBOARD_GPIO_POLLED)
@@ -940,8 +940,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 267059
 Filename: kmod-mac80211_4.14.202+4.19.137-1-2_arm_cortex-a15_neon-vfpv4.ipk
-Size: 265590
-SHA256sum: 9e0c16737fb71a43905304d813df2d378c22efec9d8920143d214d112a6de37a
+Size: 265618
+SHA256sum: 698df592e58701f335c5ec0d6c57f0159207e2c20980f5a3e1393a087f32c268
 Description:  Generic IEEE 802.11 Networking Stack (mac80211)
 
 Package: kmod-mppe
@@ -1291,8 +1291,8 @@ Maintainer: Kevin Darbyshire-Bryant <ldir@darbyshire-bryant.me.uk>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 18619
 Filename: kmod-sched-cake_4.14.202+2019-03-12-057c7388-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 19490
-SHA256sum: df7b3083afa73552634e4b73774d740226437bd9fa9b7f503c339dc746b9a5ad
+Size: 19494
+SHA256sum: 76c7d4642b4171b9544a467289b37d023560cfe44793d98ed15f626343c9ff2a
 Description:  Common Applications Kept Enhanced fq_codel/blue derived shaper
 
 Package: kmod-sched-core
@@ -1548,10 +1548,10 @@ License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 66118
+Installed-Size: 66119
 Filename: kmod-wireguard_4.14.202+1.0.20200611-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 67018
-SHA256sum: f60a92635c9d379e4edec943c2ffb7b62cf74d56183b19202a12f5665635d5eb
+Size: 67016
+SHA256sum: f84fb703cd50e2735e70e1d540f2644355ad4ced6aad8b2864b411e34bb7cfd9
 Description:  WireGuard is a novel VPN that runs inside the Linux Kernel and utilizes
  state-of-the-art cryptography. It aims to be faster, simpler, leaner, and
  more useful than IPSec, while avoiding the massive headache. It intends to
@@ -1729,9 +1729,9 @@ License: GPL-2.0 GPL-2.0+
 LicenseFiles: Licenses/README
 Section: utils
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 12952
+Installed-Size: 12950
 Filename: uboot-envtools_2018.03-3_arm_cortex-a15_neon-vfpv4.ipk
-Size: 13686
-SHA256sum: 2bb7c4b17ae153838b1d54190569cae8f926206c00ceca5aaef12467e671f96f
+Size: 13683
+SHA256sum: 70d1c16519e83ea8a311b56292b0179e559eedb06dd3243aa29742b0dc1039a2
 Description:  This package includes tools to read and modify U-Boot bootloader environment.
 
