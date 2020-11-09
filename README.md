@@ -1,10 +1,8 @@
-OpenWRT
+[OpenWRT](https://openwrt.org/toh/netgear/r7800)
 
 Builds for Netgear R7800 (Nighthawk X4S AC2600)
-https://openwrt.org/toh/netgear/r7800
 
-Based on the work of hnyman
-https://forum.openwrt.org/t/build-for-netgear-r7800/316
+Based on the work of [hnyman](https://forum.openwrt.org/t/build-for-netgear-r7800/316)
 
 Features included:
 
